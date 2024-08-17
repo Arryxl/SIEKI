@@ -1,0 +1,26 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Mulish', 'DM Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+.icon-span {
+    background-color: black; /* testeando icon span */
+    background-image: url(/assets/icons/img-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
