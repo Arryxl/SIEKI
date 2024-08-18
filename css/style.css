@@ -37,3 +37,12 @@ P {
     width: 40px;
     height: 40px;
 }
+
+.icon-span-2 {
+    background-image: url(/assets/icons/img-2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
