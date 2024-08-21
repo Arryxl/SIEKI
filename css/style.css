@@ -22,7 +22,7 @@ header h2 {
 }
 
 header {
-    background-image: url(/assets/images/IMG/IMG0.jpg);
+    background-image: url('/assets/images/IMG/IMG0.jpg');
     background-size: cover;
     background-position: center top;                              /*Este fragmento del codigo, posiciona la imagen en la parte superior*/
     background-repeat: no-repeat;
