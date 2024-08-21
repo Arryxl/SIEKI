@@ -22,7 +22,7 @@ header h2 {
 }
 
 header {
-    background-image: url('/assets/images/IMG/IMG0.jpg');
+    background-image: url(/assets/images/IMG/IMG0.jpg);
     background-size: cover;
     background-position: center top;                              /*Este fragmento del codigo, posiciona la imagen en la parte superior*/
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ P {
 
 .icon-span {
     background-color: black; /* testeando icon span */
-    background-image: url(/assets/icons/img-1.svg);
+    background-image: url(/assets/images/IMG/img-1.svg);
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
@@ -91,7 +91,7 @@ P {
 }
 
 .icon-span-2 {
-    background-image: url(/assets/icons/img-2.svg);
+    background-image: url(/assets/images/IMG/img-2.svg);
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
