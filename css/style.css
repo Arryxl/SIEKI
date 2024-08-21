@@ -23,7 +23,7 @@ header {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select:none;
-    user-select:none;
+    user-select: none;
 }
 
 .header-container {
@@ -41,12 +41,27 @@ header {
     font-size: 2.1rem;
     padding: 14rem;
 }
+
+.btn-header-container {
+    position: relative;
+    margin: 20px;
+    top: -13rem;
+    
+}
+
+
 .btn-header{
     color: white;
-    font-size: 1.7rem;
+    font-size: 1rem;
     position: relative;
-    top: -9rem;
-    
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
 }
 
 .bar-top {
@@ -139,9 +154,10 @@ header {
 .title-header {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: bold;
     font-style: normal;
-    font-size: 40;
+    font-size: 5rem;
+    margin: 1.875rem;
 }
 
 P {
@@ -158,6 +174,7 @@ P {
     display: inline-block;
     width: 2.5rem;
     height: 2.5rem;
+    margin: 2.5rem;
 }
 
 .icon-span-2 {
@@ -168,6 +185,43 @@ P {
     width: 2.5rem;
     height: 2.5rem;
 }
+
+/*  ------------ BODY --------------*/
+
+.about-h3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 0.25rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.info-about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.img-main-about {
+    flex: 1;
+    padding: 1.25rem;
+    min-width: 18.75rem;
+}
+
+.text-main-about {
+    flex: 2;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    min-width: 18.75rem;
+}
+
+.certified-main-about {
+    padding: 1.25rem;
+}
+
+/*  ------------ GOOGLE MAPS ------------ */
 
 .main-gmaps-iframe {
     width: 320px;
