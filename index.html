@@ -20,30 +20,41 @@
 
 <!--    ////////    HEADER    ////////    -->
     <header>
-        <div class="bar-top">
-            <img id="logo" src="assets/icons/LOGOBLANCO.png" alt="logo de la empresa">
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="#" class="nav-link">Bienvenidos</a></li>
-                    <li><a href="#" class="nav-link">Acerca de</a></li>
-                    <li><a href="#" class="nav-link">Reserva</a></li>
-                    <li><a href="#" class="nav-link">Catalogo</a></li>
-                    <li><a href="#" class="nav-link">Contacto</a></li>
-                    <li><a href="#" class="nav-link">Más</a></li>
-                </ul>
-            </nav>
+        
 
-        </div>
-
-
-        <div class="block-header">
-            <p>BIENVENIDO A<p/>
-            <h1 class="title-header">Epa Keratinas Ibagué</h1>
-            <div class="header-icon-span">
-                <span class="icon-span"></span> <!-- icono header -->
+        <section class="header-container">
+            <div class="bar-top">
+                <img class="logo" src="assets/icons/LOGOBLANCO.png" alt="logo de la empresa">
+            
+            <div class="bars">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-            <a href="#reserva">Reserva</a> <!-- botón redireccion a #reserva -->
-        </div>
+                <nav class="nav-list">
+                    <ul>
+                        <li><a href="#" class="nav-link active">Bienvenidos</a></li>
+                        <li><a href="#" class="nav-link">Acerca de</a></li>
+                        <li><a href="#" class="nav-link">Reserva</a></li>
+                        <li><a href="#" class="nav-link">Catalogo</a></li>
+                        <li><a href="#" class="nav-link">Contacto</a></li>
+                        <li><a href="#" class="nav-link">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <div class="block-header">
+                    <p>BIENVENIDO A</p>
+                    <h1 class="title-header">Epa Keratinas Ibagué</h1>
+                    <div class="header-icon-span">
+                        <span class="icon-span"></span> <!-- icono header -->
+                    </div>
+                    <a href="#reserva">Reserva</a> <!-- botón redireccion a #reserva -->
+                </div>
+            </div>
+        </section>
+
+        
     </header>
 
 <!--    ////////    MAIN    ////////    -->
@@ -114,7 +125,7 @@
             </div>
         </section>
         <section class="main-gmaps-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.9329695973408!2d-75.20440277192786!3d4.436053399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c509479e7e33%3A0xd216221d7d10e23a!2sEPA%20KERATINAS%20IBAGUE!5e0!3m2!1ses!2sco!4v1723867477780!5m2!1ses!2sco" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="main-gmaps-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.9329695973408!2d-75.20440277192786!3d4.436053399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c509479e7e33%3A0xd216221d7d10e23a!2sEPA%20KERATINAS%20IBAGUE!5e0!3m2!1ses!2sco!4v1723867477780!5m2!1ses!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <section class="main-contact-container">
             <span class="icon-span"></span>
@@ -139,5 +150,7 @@
             <p>&copy; 2023 Todos los derechos estan reservados - Epa Keratinas Colombia - Politica de privacidad - Sitio web SOS Asistentes Virtuales - Ibague - Tolima.</p>
         </div>
     </footer>
+
+    <script src="./js/nav-bar.js"></script>
 </body>
 </html>
