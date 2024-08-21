@@ -19,6 +19,13 @@ html {
 }
 /*ZONA HEADER */
 
+header {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
 .header-container {
     background-image: url('../assets/icons/IMG0.jpg');
     display: table;
