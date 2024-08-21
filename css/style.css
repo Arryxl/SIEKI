@@ -53,3 +53,52 @@ P {
     width: 40px;
     height: 40px;
 }
+/* ZONA FOOTER, NO TOCAR SIN AUTORIZACION DE PÉREZ*/
+footer {
+    background-color: rgb(34, 29, 29);
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+
+.footer-section-links ul {
+    list-style: none;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section-links ul li{
+    margin: 0 45px;
+}
+
+.footer-section-links ul li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.footer-section-links ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.footer-section-links ul li a:hover::after{
+    width: 100%;
+}
+
+
+.footer-rights {
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
