@@ -116,6 +116,13 @@ html {
 
 }
 
+.block-header {
+    display: center;
+    padding: 13pc;                                                  /*Este es el div del bloque central de la imagen*/
+    color: white;
+    font-size: 23px;
+}
+
 .titleheader {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
