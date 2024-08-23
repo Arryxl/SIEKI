@@ -198,19 +198,12 @@ P {
     margin-bottom: 2rem;
 }
 
-.info-about-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .img-main-about {
-    flex: 1;
     margin: 1.25rem;
     min-width: 19rem;
 }
 
 .text-main-about {
-    flex: 2;
     padding: 1.25rem;
     margin: 1.25rem;
     min-width: 19rem;
@@ -224,6 +217,8 @@ P {
     font-size: 1rem;
     margin: 1.5em;
 }  
+
+
 
 /*  ------------ GOOGLE MAPS ------------ */
 
