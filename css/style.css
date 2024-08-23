@@ -39,7 +39,6 @@ header {
 .block-header {
     color: white;
     font-size: 2.1rem;
-    padding: 14rem;
 }
 
 .btn-header-container {
@@ -200,13 +199,12 @@ P {
 
 .img-main-about {
     margin: 1.25rem;
-    min-width: 19rem;
+    width: 30%;
 }
 
 .text-main-about {
     padding: 1.25rem;
     margin: 1.25rem;
-    min-width: 19rem;
 }
 
 .certified-main-about {
