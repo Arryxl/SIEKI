@@ -72,17 +72,21 @@ header {
 }
 
 .bar-top {
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    width: 100%;
+    transition: all 0.5s ease;
 }
 
 .logo {
     height: 70px;
     padding: 5px;
     margin: 10px;
+    background-image: url("../assets/icons/LOGO-NEGRO.png");
 }
 
 .bars {
@@ -98,12 +102,44 @@ header {
     color: #fff;
     font-size: 16px;
     padding: .625em 1.5625em;
-    border-radius: .9375rem;
-    transition: 0.2s;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 .nav-list ul li a:hover {
-    color: #949494;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px;
+}
+
+.bar-top.active2 {
+    background-color: #ffffff;
+    padding: 0 25px;
+}
+
+.bar-top.active2 ul {
+    display: flex;
+}
+
+.bar-top.active2  ul li a {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    padding: .625em 1.5625em;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.bar-top.active2 .logo {
+    height: 70px;
+    padding: 5px;
+    margin: 10px;
+    background-image: url(../assets/icons/LOGO-NEGRO.png);
+}
+.bar-top.active2 ul li a:hover {
+    background-color: #00000073;
+    color: #ffffff;
+    border-radius: 15px;
 }
 
 @media(max-width: 56.25rem) {
@@ -155,6 +191,52 @@ header {
     .nav-list ul li a {
         margin-bottom: 20px;
     }
+
+    .bar-top.active2 .bars .line {
+        width: 30px;
+        height: 3px;
+        background-color: #000000;
+        margin: 6px 0;
+    }
+
+    .bar-top.active2 .nav-list {
+        height: 0;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: height 0.5s ease;
+        overflow: hidden;
+        z-index: 1000; 
+    }
+
+    .bar-top.active2    .nav-list.active {
+        height: 480px;
+        width: 100%;
+    }
+
+    .bar-top.active2 .nav-list ul {
+        display: block;
+        width: fit-content;
+        margin: 16px auto 0 auto;
+        text-align: center;
+        transition: opacity 0.5s ease;  
+        opacity: 0;
+    }
+
+    .bar-top.active2 .nav-list.active ul {
+        opacity: 1;
+    }
+
+    .bar-top.active2 .nav-list ul li a {
+        margin-bottom: 20px;
+    }
+
+    
+
+
 
 }
 
