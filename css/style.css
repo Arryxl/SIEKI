@@ -46,6 +46,7 @@ header {
 .block-header {
     color: white;
     font-size: 33.6px;
+    padding: 14rem 0;
 }
 
 .btn-header-container {
