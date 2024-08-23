@@ -6,6 +6,13 @@
     list-style: none;
 }
 
+P {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
 html {
     width: 100%;
     font-size: 100%;
@@ -26,7 +33,7 @@ header {
 }
 
 .header-container {
-    background-image: url('../assets/icons/IMG0.jpg');
+    background-image: url('../assets/images-diana/IMG0.jpg');
     display: table;
     width: 100%;
     height: 100vh;
@@ -159,13 +166,6 @@ header {
     margin: 30px;
 }
 
-P {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-}
-
 .icon-span {
     background-image: url(../assets/icons/img-1.svg);
     background-size: cover;
@@ -214,10 +214,27 @@ P {
 .text-main-about {
     font-size: 16px;
     margin: 1.5em;
-}  
+}
+
+<<<<<<< HEAD
 
 
+=======
+.main-services-details{
+    background: pink;
+    display: flex;
+    padding: 10rem 10rem 10rem 25rem;
+    align-items: center;
+}
 
+.services-details-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 55px;
+    text-align: center;
+}
+>>>>>>> main
 /*  ------------ GOOGLE MAPS ------------ */
 
 .main-gmaps-iframe {
