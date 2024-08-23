@@ -38,27 +38,27 @@ header {
 
 .block-header {
     color: white;
-    font-size: 2.1rem;
+    font-size: 33.6px;
 }
 
 .btn-header-container {
     position: relative;
-    margin: 20px;
-    top: -13rem;
+    margin: 1.25rem;
+    top: -208px;
     
 }
 
 
 .btn-header{
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
     position: relative;
-    border: 3px solid #fff;
-    border-radius: 20px;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    border: .1875rem solid #fff;
+    border-radius: 1.25rem;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     font-family: "Playfair Display", serif;
     font-weight: bold;
 }
@@ -68,13 +68,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5rem;
+    height: 80px;
 }
 
 .logo {
-    height: 4.375rem;
-    padding: .3125rem;
-    margin: .625rem;
+    height: 70px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .bars {
@@ -88,9 +88,9 @@ header {
 .nav-list ul li a {
     display: block;
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     padding: .625em 1.5625em;
-    border-radius: 15px;
+    border-radius: .9375rem;
     transition: 0.2s;
 }
 
@@ -98,25 +98,25 @@ header {
     color: #949494;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 56.25rem) {
     .bars {
         display: block;
         cursor: pointer;
-        margin: 0px 1.875rem;
+        margin: 0rem 30px;
     }
 
 
     .bars .line {
-        width: 1.875rem;
-        height: .1875rem;
+        width: 30px;
+        height: 3px;
         background-color: #fff;
-        margin: .375rem 0;
+        margin: 6px 0;
     }
 
     .nav-list {
         height: 0;
         position: fixed;
-        top: 5rem;
+        top: 80px;
         left: 0;
         right: 0;
         width: 100%;
@@ -127,14 +127,14 @@ header {
     }
     
     .nav-list.active {
-        height: 30rem;
+        height: 480px;
         width: 100%;
     }
     
     .nav-list ul {
         display: block;
         width: fit-content;
-        margin: 1rem auto 0 auto;
+        margin: 16px auto 0 auto;
         text-align: center;
         transition: opacity 0.5s ease;  
         opacity: 0;
@@ -145,7 +145,7 @@ header {
     }
 
     .nav-list ul li a {
-        margin-bottom: 1.25rem;
+        margin-bottom: 20px;
     }
 
 }
@@ -155,8 +155,8 @@ header {
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    font-size: 5rem;
-    margin: 1.875rem;
+    font-size: 80px;
+    margin: 30px;
 }
 
 P {
@@ -171,9 +171,9 @@ P {
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin: 2.5rem;
+    width: 40px;
+    height: 40px;
+    margin: 40px;
 }
 
 .icon-span-2 {
@@ -181,8 +181,8 @@ P {
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 40px;
+    height: 40px;
 }
 
 /*  ------------ BODY --------------*/
@@ -192,27 +192,27 @@ P {
     font-optical-sizing: auto;
     font-weight: 1000;
     font-style: normal;
-    letter-spacing: 0.25rem;
-    margin-top: 8rem;
-    margin-bottom: 2rem;
+    letter-spacing: 4px;
+    margin-top: 128px;
+    margin-bottom: 32px;
 }
 
 .img-main-about {
-    margin: 1.25rem;
-    width: 30%;
+    margin: 20px;
+    width: 50%;
 }
 
 .text-main-about {
-    padding: 1.25rem;
-    margin: 1.25rem;
+    padding: 20px;
+    margin: 20px;
 }
 
 .certified-main-about {
-    padding: 1.25rem;
+    padding: 20px;
 }
 
 .text-main-about {
-    font-size: 1rem;
+    font-size: 16px;
     margin: 1.5em;
 }  
 
@@ -221,8 +221,8 @@ P {
 /*  ------------ GOOGLE MAPS ------------ */
 
 .main-gmaps-iframe {
-    width: 320px;
-    height: 224px;
+    width: 20rem;
+    height: 14rem;
     border:0;
 }
 /* ZONA FOOTER, NO TOCAR SIN AUTORIZACION DE PÉREZ*/
@@ -230,18 +230,21 @@ footer {
     background-color: rgb(34, 29, 29);
     color: white;
     font-family: "Playfair Display", serif;
-    font-size: .9375rem;
+    font-size: 15px;
 }
 
 .footer-section-links ul {
     list-style: none;
-    padding: 2.1875rem;
+    text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 1.875rem 0;
+    width: 100%;
 }
 
 .footer-section-links ul li{
-    margin: 0 2.8125rem;
+    margin: 20px 45px;
 }
 
 .footer-section-links ul li a {
@@ -249,14 +252,14 @@ footer {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-    padding-bottom: .3125rem;
+    padding-bottom: 5px;
 }
 
 .footer-section-links ul li a::after{
     content: "";
     position: absolute;
     width: 0;
-    height: .125rem;
+    height: 2px;
     background-color: white;
     left: 0;
     bottom: 0;
@@ -269,8 +272,7 @@ footer {
 
 
 .footer-rights {
-    padding: 1.5625rem;
+    padding: 25px;
     text-align: center;
-    font-size: .875rem;
-    margin-top: 1.25rem;
+    font-size: 14px;
 }
