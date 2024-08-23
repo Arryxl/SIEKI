@@ -216,10 +216,6 @@ header {
     margin: 1.5em;
 }
 
-<<<<<<< HEAD
-
-
-=======
 .main-services-details{
     background: pink;
     display: flex;
@@ -234,7 +230,6 @@ header {
     margin-left: 55px;
     text-align: center;
 }
->>>>>>> main
 /*  ------------ GOOGLE MAPS ------------ */
 
 .main-gmaps-iframe {
@@ -242,6 +237,7 @@ header {
     height: 14rem;
     border:0;
 }
+
 /* ZONA FOOTER, NO TOCAR SIN AUTORIZACION DE PÉREZ*/
 footer {
     background-color: rgb(34, 29, 29);
