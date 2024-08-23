@@ -300,18 +300,28 @@ header {
 }
 
 .main-services-details{
-    background: pink;
+    background: #FAD7E1;
     display: flex;
-    padding: 10rem 10rem 10rem 25rem;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .services-details-card img {
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     object-fit: cover;
-    margin-left: 55px;
-    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 0 auto 10px;
+}
+
+.services-details-card img:hover {
+    transform: scale(1.1);
+}
+
+.services-cards-container {
+    margin: 3%;
+
 }
 /*  ------------ GOOGLE MAPS ------------ */
 
