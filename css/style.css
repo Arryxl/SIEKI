@@ -46,7 +46,13 @@ header {
 .block-header {
     color: white;
     font-size: 33.6px;
-    padding: 14rem 0;
+    padding: 7em 0;
+}
+
+@media(max-width: 451px) {
+    .block-header {
+        padding: 5.5em 0 7em 0;
+    }
 }
 
 .btn-header-container {
@@ -202,7 +208,6 @@ header {
     .bar-top.active2 .nav-list {
         height: 0;
         position: fixed;
-        top: 80px;
         left: 0;
         right: 0;
         width: 100%;
@@ -246,7 +251,7 @@ header {
     font-weight: bold;
     font-style: normal;
     font-size: 80px;
-    margin: 30px;
+    margin: 40px 10px 30px 10px;
 }
 
 .icon-span {
