@@ -10,6 +10,11 @@ const nav = document.querySelector(".bar-top")
 var img = document.getElementsByClassName("logo")[0]
 
 window.addEventListener("scroll", function() {
-    img.src = "./assets/icons/LOGO-NEGRO.png"
-    nav.classList.toggle("active2", window.scrollY > 0)
+    if (window.scrollY > 0) {
+        img.src = "./assets/icons/LOGO-NEGRO.png";
+        nav.classList.add("active2");
+    } else {
+        img.src = "./assets/icons/LOGOBLANCO.png";
+        nav.classList.remove("active2");
+    }
 })
