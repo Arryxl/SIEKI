@@ -454,7 +454,24 @@ header {
 
 .services-cards-container {
     margin: 3%;
+}
 
+.main-ubication-container {
+    padding: 3%;
+    background-color: rgb(34, 29, 29);
+    color: white;
+}
+.contact-data-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    font-size: 120%;
+}
+
+.buttons-socials-ubication-container a{
+    padding-top: 1%;
+    margin: 0 20px;
 }
 /*  ------------ GOOGLE MAPS ------------ */
 
