@@ -1,0 +1,34 @@
+/*.caruosel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.caruosel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-section {
+    min-width: 100%;
+}
+
+
+.btn-left, .btn-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+.btn-left {
+    left: 10px; 
+}
+
+.btn-right {
+    right: 10px;
+}*/

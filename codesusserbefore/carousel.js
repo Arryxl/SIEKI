@@ -1,4 +1,4 @@
-const slides = document.querySelector('.caruosel-slides')
+/**  const slides = document.querySelector('.caruosel-slides')
 const slideSections = document.querySelectorAll('.slider-section')
 const btnLeft = document.querySelector('.btn-left')
 const btnRight = document.querySelector('.btn-right')
@@ -23,3 +23,10 @@ function nextSlide(){
 
 btnLeft.addEventListener('click', prevSlide)
 btnRight.addEventListener('click', nextSlide)
+ */
+
+
+
+
+
+
